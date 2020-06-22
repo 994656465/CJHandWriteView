@@ -1,0 +1,668 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04A40FC2249CA225001E6C7A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A40FC1249CA225001E6C7A /* AppDelegate.m */; };
+		04A40FC5249CA225001E6C7A /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A40FC4249CA225001E6C7A /* SceneDelegate.m */; };
+		04A40FC8249CA225001E6C7A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A40FC7249CA225001E6C7A /* ViewController.m */; };
+		04A40FCB249CA225001E6C7A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04A40FC9249CA225001E6C7A /* Main.storyboard */; };
+		04A40FCD249CA228001E6C7A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04A40FCC249CA228001E6C7A /* Assets.xcassets */; };
+		04A40FD0249CA228001E6C7A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04A40FCE249CA228001E6C7A /* LaunchScreen.storyboard */; };
+		04A40FD3249CA228001E6C7A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A40FD2249CA228001E6C7A /* main.m */; };
+		04A40FDD249CA228001E6C7A /* CJSignTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A40FDC249CA228001E6C7A /* CJSignTests.m */; };
+		04A40FE8249CA228001E6C7A /* CJSignUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A40FE7249CA228001E6C7A /* CJSignUITests.m */; };
+		04A40FFB249CA3D6001E6C7A /* CJHandSignViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A40FFA249CA3D6001E6C7A /* CJHandSignViewController.m */; };
+		04A40FFE249CA9E7001E6C7A /* UIView+Toast.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A40FFD249CA9E7001E6C7A /* UIView+Toast.m */; };
+		04FCD91924A075590007351F /* CJHandWriteView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FCD91824A075590007351F /* CJHandWriteView.m */; };
+		E0B31FD8825378FFCB1407C2 /* libPods-CJSign.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BB6D1D2340CAC05EECD20D94 /* libPods-CJSign.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04A40FD9249CA228001E6C7A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04A40FB5249CA225001E6C7A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04A40FBC249CA225001E6C7A;
+			remoteInfo = CJSign;
+		};
+		04A40FE4249CA228001E6C7A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04A40FB5249CA225001E6C7A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04A40FBC249CA225001E6C7A;
+			remoteInfo = CJSign;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04A40FBD249CA225001E6C7A /* CJSign.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CJSign.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04A40FC0249CA225001E6C7A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		04A40FC1249CA225001E6C7A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		04A40FC3249CA225001E6C7A /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		04A40FC4249CA225001E6C7A /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		04A40FC6249CA225001E6C7A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		04A40FC7249CA225001E6C7A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		04A40FCA249CA225001E6C7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04A40FCC249CA228001E6C7A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04A40FCF249CA228001E6C7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04A40FD1249CA228001E6C7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04A40FD2249CA228001E6C7A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04A40FD8249CA228001E6C7A /* CJSignTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CJSignTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04A40FDC249CA228001E6C7A /* CJSignTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CJSignTests.m; sourceTree = "<group>"; };
+		04A40FDE249CA228001E6C7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04A40FE3249CA228001E6C7A /* CJSignUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CJSignUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04A40FE7249CA228001E6C7A /* CJSignUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CJSignUITests.m; sourceTree = "<group>"; };
+		04A40FE9249CA228001E6C7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04A40FF9249CA3D6001E6C7A /* CJHandSignViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CJHandSignViewController.h; sourceTree = "<group>"; };
+		04A40FFA249CA3D6001E6C7A /* CJHandSignViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CJHandSignViewController.m; sourceTree = "<group>"; };
+		04A40FFC249CA9E7001E6C7A /* UIView+Toast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Toast.h"; sourceTree = "<group>"; };
+		04A40FFD249CA9E7001E6C7A /* UIView+Toast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Toast.m"; sourceTree = "<group>"; };
+		04FCD91724A075590007351F /* CJHandWriteView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CJHandWriteView.h; sourceTree = "<group>"; };
+		04FCD91824A075590007351F /* CJHandWriteView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CJHandWriteView.m; sourceTree = "<group>"; };
+		8BDFEFDAB5234E2CD1F0C6B8 /* Pods-CJSign.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CJSign.debug.xcconfig"; path = "Target Support Files/Pods-CJSign/Pods-CJSign.debug.xcconfig"; sourceTree = "<group>"; };
+		BB6D1D2340CAC05EECD20D94 /* libPods-CJSign.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CJSign.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD18CB41D4AEA9D7109A90EC /* Pods-CJSign.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CJSign.release.xcconfig"; path = "Target Support Files/Pods-CJSign/Pods-CJSign.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04A40FBA249CA225001E6C7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0B31FD8825378FFCB1407C2 /* libPods-CJSign.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04A40FD5249CA228001E6C7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04A40FE0249CA228001E6C7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0187F2C6C64E1E7EA4B8F3FC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8BDFEFDAB5234E2CD1F0C6B8 /* Pods-CJSign.debug.xcconfig */,
+				FD18CB41D4AEA9D7109A90EC /* Pods-CJSign.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		04A40FB4249CA225001E6C7A = {
+			isa = PBXGroup;
+			children = (
+				04A40FBF249CA225001E6C7A /* CJSign */,
+				04A40FDB249CA228001E6C7A /* CJSignTests */,
+				04A40FE6249CA228001E6C7A /* CJSignUITests */,
+				04A40FBE249CA225001E6C7A /* Products */,
+				0187F2C6C64E1E7EA4B8F3FC /* Pods */,
+				7C6246E4296B983767EEAE05 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		04A40FBE249CA225001E6C7A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04A40FBD249CA225001E6C7A /* CJSign.app */,
+				04A40FD8249CA228001E6C7A /* CJSignTests.xctest */,
+				04A40FE3249CA228001E6C7A /* CJSignUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04A40FBF249CA225001E6C7A /* CJSign */ = {
+			isa = PBXGroup;
+			children = (
+				04A40FFC249CA9E7001E6C7A /* UIView+Toast.h */,
+				04A40FFD249CA9E7001E6C7A /* UIView+Toast.m */,
+				04A40FF5249CA264001E6C7A /* signatureView */,
+				04A40FC0249CA225001E6C7A /* AppDelegate.h */,
+				04A40FC1249CA225001E6C7A /* AppDelegate.m */,
+				04A40FC3249CA225001E6C7A /* SceneDelegate.h */,
+				04A40FC4249CA225001E6C7A /* SceneDelegate.m */,
+				04A40FC6249CA225001E6C7A /* ViewController.h */,
+				04A40FC7249CA225001E6C7A /* ViewController.m */,
+				04A40FF9249CA3D6001E6C7A /* CJHandSignViewController.h */,
+				04A40FFA249CA3D6001E6C7A /* CJHandSignViewController.m */,
+				04A40FC9249CA225001E6C7A /* Main.storyboard */,
+				04A40FCC249CA228001E6C7A /* Assets.xcassets */,
+				04A40FCE249CA228001E6C7A /* LaunchScreen.storyboard */,
+				04A40FD1249CA228001E6C7A /* Info.plist */,
+				04A40FD2249CA228001E6C7A /* main.m */,
+			);
+			path = CJSign;
+			sourceTree = "<group>";
+		};
+		04A40FDB249CA228001E6C7A /* CJSignTests */ = {
+			isa = PBXGroup;
+			children = (
+				04A40FDC249CA228001E6C7A /* CJSignTests.m */,
+				04A40FDE249CA228001E6C7A /* Info.plist */,
+			);
+			path = CJSignTests;
+			sourceTree = "<group>";
+		};
+		04A40FE6249CA228001E6C7A /* CJSignUITests */ = {
+			isa = PBXGroup;
+			children = (
+				04A40FE7249CA228001E6C7A /* CJSignUITests.m */,
+				04A40FE9249CA228001E6C7A /* Info.plist */,
+			);
+			path = CJSignUITests;
+			sourceTree = "<group>";
+		};
+		04A40FF5249CA264001E6C7A /* signatureView */ = {
+			isa = PBXGroup;
+			children = (
+				04FCD91724A075590007351F /* CJHandWriteView.h */,
+				04FCD91824A075590007351F /* CJHandWriteView.m */,
+			);
+			path = signatureView;
+			sourceTree = "<group>";
+		};
+		7C6246E4296B983767EEAE05 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BB6D1D2340CAC05EECD20D94 /* libPods-CJSign.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04A40FBC249CA225001E6C7A /* CJSign */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04A40FEC249CA228001E6C7A /* Build configuration list for PBXNativeTarget "CJSign" */;
+			buildPhases = (
+				1B7E98F114F020D2592A0286 /* [CP] Check Pods Manifest.lock */,
+				04A40FB9249CA225001E6C7A /* Sources */,
+				04A40FBA249CA225001E6C7A /* Frameworks */,
+				04A40FBB249CA225001E6C7A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CJSign;
+			productName = CJSign;
+			productReference = 04A40FBD249CA225001E6C7A /* CJSign.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04A40FD7249CA228001E6C7A /* CJSignTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04A40FEF249CA228001E6C7A /* Build configuration list for PBXNativeTarget "CJSignTests" */;
+			buildPhases = (
+				04A40FD4249CA228001E6C7A /* Sources */,
+				04A40FD5249CA228001E6C7A /* Frameworks */,
+				04A40FD6249CA228001E6C7A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04A40FDA249CA228001E6C7A /* PBXTargetDependency */,
+			);
+			name = CJSignTests;
+			productName = CJSignTests;
+			productReference = 04A40FD8249CA228001E6C7A /* CJSignTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		04A40FE2249CA228001E6C7A /* CJSignUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04A40FF2249CA228001E6C7A /* Build configuration list for PBXNativeTarget "CJSignUITests" */;
+			buildPhases = (
+				04A40FDF249CA228001E6C7A /* Sources */,
+				04A40FE0249CA228001E6C7A /* Frameworks */,
+				04A40FE1249CA228001E6C7A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04A40FE5249CA228001E6C7A /* PBXTargetDependency */,
+			);
+			name = CJSignUITests;
+			productName = CJSignUITests;
+			productReference = 04A40FE3249CA228001E6C7A /* CJSignUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04A40FB5249CA225001E6C7A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = SmartPig;
+				TargetAttributes = {
+					04A40FBC249CA225001E6C7A = {
+						CreatedOnToolsVersion = 11.4;
+					};
+					04A40FD7249CA228001E6C7A = {
+						CreatedOnToolsVersion = 11.4;
+						TestTargetID = 04A40FBC249CA225001E6C7A;
+					};
+					04A40FE2249CA228001E6C7A = {
+						CreatedOnToolsVersion = 11.4;
+						TestTargetID = 04A40FBC249CA225001E6C7A;
+					};
+				};
+			};
+			buildConfigurationList = 04A40FB8249CA225001E6C7A /* Build configuration list for PBXProject "CJSign" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04A40FB4249CA225001E6C7A;
+			productRefGroup = 04A40FBE249CA225001E6C7A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04A40FBC249CA225001E6C7A /* CJSign */,
+				04A40FD7249CA228001E6C7A /* CJSignTests */,
+				04A40FE2249CA228001E6C7A /* CJSignUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04A40FBB249CA225001E6C7A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04A40FD0249CA228001E6C7A /* LaunchScreen.storyboard in Resources */,
+				04A40FCD249CA228001E6C7A /* Assets.xcassets in Resources */,
+				04A40FCB249CA225001E6C7A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04A40FD6249CA228001E6C7A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04A40FE1249CA228001E6C7A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1B7E98F114F020D2592A0286 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CJSign-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04A40FB9249CA225001E6C7A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04A40FC8249CA225001E6C7A /* ViewController.m in Sources */,
+				04A40FC2249CA225001E6C7A /* AppDelegate.m in Sources */,
+				04FCD91924A075590007351F /* CJHandWriteView.m in Sources */,
+				04A40FD3249CA228001E6C7A /* main.m in Sources */,
+				04A40FFB249CA3D6001E6C7A /* CJHandSignViewController.m in Sources */,
+				04A40FFE249CA9E7001E6C7A /* UIView+Toast.m in Sources */,
+				04A40FC5249CA225001E6C7A /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04A40FD4249CA228001E6C7A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04A40FDD249CA228001E6C7A /* CJSignTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04A40FDF249CA228001E6C7A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04A40FE8249CA228001E6C7A /* CJSignUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04A40FDA249CA228001E6C7A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04A40FBC249CA225001E6C7A /* CJSign */;
+			targetProxy = 04A40FD9249CA228001E6C7A /* PBXContainerItemProxy */;
+		};
+		04A40FE5249CA228001E6C7A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04A40FBC249CA225001E6C7A /* CJSign */;
+			targetProxy = 04A40FE4249CA228001E6C7A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		04A40FC9249CA225001E6C7A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04A40FCA249CA225001E6C7A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		04A40FCE249CA228001E6C7A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04A40FCF249CA228001E6C7A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04A40FEA249CA228001E6C7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		04A40FEB249CA228001E6C7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04A40FED249CA228001E6C7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8BDFEFDAB5234E2CD1F0C6B8 /* Pods-CJSign.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TK8557XFF5;
+				INFOPLIST_FILE = CJSign/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zzdriver.www.CJSign;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		04A40FEE249CA228001E6C7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD18CB41D4AEA9D7109A90EC /* Pods-CJSign.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TK8557XFF5;
+				INFOPLIST_FILE = CJSign/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zzdriver.www.CJSign;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		04A40FF0249CA228001E6C7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TK8557XFF5;
+				INFOPLIST_FILE = CJSignTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zzdriver.www.CJSignTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CJSign.app/CJSign";
+			};
+			name = Debug;
+		};
+		04A40FF1249CA228001E6C7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TK8557XFF5;
+				INFOPLIST_FILE = CJSignTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zzdriver.www.CJSignTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CJSign.app/CJSign";
+			};
+			name = Release;
+		};
+		04A40FF3249CA228001E6C7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TK8557XFF5;
+				INFOPLIST_FILE = CJSignUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zzdriver.www.CJSignUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CJSign;
+			};
+			name = Debug;
+		};
+		04A40FF4249CA228001E6C7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TK8557XFF5;
+				INFOPLIST_FILE = CJSignUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zzdriver.www.CJSignUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CJSign;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04A40FB8249CA225001E6C7A /* Build configuration list for PBXProject "CJSign" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04A40FEA249CA228001E6C7A /* Debug */,
+				04A40FEB249CA228001E6C7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04A40FEC249CA228001E6C7A /* Build configuration list for PBXNativeTarget "CJSign" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04A40FED249CA228001E6C7A /* Debug */,
+				04A40FEE249CA228001E6C7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04A40FEF249CA228001E6C7A /* Build configuration list for PBXNativeTarget "CJSignTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04A40FF0249CA228001E6C7A /* Debug */,
+				04A40FF1249CA228001E6C7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04A40FF2249CA228001E6C7A /* Build configuration list for PBXNativeTarget "CJSignUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04A40FF3249CA228001E6C7A /* Debug */,
+				04A40FF4249CA228001E6C7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04A40FB5249CA225001E6C7A /* Project object */;
+}
